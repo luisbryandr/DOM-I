@@ -56,3 +56,11 @@ console.log(ctaImg)
 
 const mainContent = document.querySelector(".main-content");
 console.log(mainContent);
+
+const topContent = document.getElementsByClassName("top-content")
+
+const middleImg = document.querySelector("#middle-img");
+console.log(middleImg);
+
+const bottomContent = document.querySelector(".bottom-content");
+
