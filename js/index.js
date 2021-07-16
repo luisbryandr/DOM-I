@@ -63,3 +63,4 @@ anchorTags[5].textContent = 'Contact';
 
 const button = document.createElement('button')
 ctaDiv.appendChild(button);
+ctaDiv.textContent = 'Dom' + 'is' + 'awesome'
