@@ -41,26 +41,22 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-let contact = document.getElementsByClassName("contact");
-console.log(contact)
+const container = document.querySelector(".container");
 
-const container = document.getElementsByClassName("container");
-console.log(container)
+const logo = document.querySelector('#logo-img')
+const ctaSection = document.querySelector('.cta')
+const ctaDiv = document.querySelector('.cta-text')
+const ctaImg = document.querySelector('#cta-img')
+const mainContent = document.querySelector('.main-content')
+const topContent = document.querySelector('.top-content')
+const textContent = document.querySelectorAll('.text-content')
+const middleImg = document.querySelector('#middle-img')
+const bottomContent = document.querySelector('.bottom-content')
+const contact = document.querySelector('.contact')
+const headline = document.querySelectorAll("h1")
+const headings = document.querySelectorAll('h4')
+const header = document.querySelector('header')
+const anchorTags = document.querySelectorAll('a')
+const pars = document.querySelectorAll('p')
 
-const cta = document.getElementsByClassName("cta")
-console.log(cta)
-const ctaText = document.querySelector(".cta-text");
-console.log(ctaText)
-const ctaImg = document.getElementById("cta-img")
-console.log(ctaImg)
-
-const mainContent = document.querySelector(".main-content");
-console.log(mainContent);
-
-const topContent = document.getElementsByClassName("top-content")
-
-const middleImg = document.querySelector("#middle-img");
-console.log(middleImg);
-
-const bottomContent = document.querySelector(".bottom-content");
 
